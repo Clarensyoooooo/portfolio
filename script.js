@@ -1,10 +1,21 @@
 const paintings = [
-    { id: 1, title: "Ethereal Dreams", src: "pics/very recent proj.png" },
-    { id: 2, title: "Urban Pulse", src: "pics/eltree port.png" },
-    { id: 3, title: "Nature's Whisper", src: "pics/og_res_gradient.png" },
-    { id: 4, title: "Digital Cosmos", src: "pics/orcsword port.png" },
-    { id: 5, title: "Chromatic Harmony", src: "pics/eltandress port.png" },
-    { id: 6, title: "Pixel Perfection", src: "pics/new.png" },
+    { id: 3, title: "Tempest", src: "pics/og_res_gradient.png" },
+    { id: 1, title: "Ethereal", src: "pics/very recent proj.png" },
+    { id: 2, title: "Aka", src: "pics/eltree port.png" },
+    { id: 7, title: "Liberated", src: "pics/gae.png" },
+    { id: 8, title: "Undying", src: "pics/trio.png" },
+    { id: 6, title: "Serpent", src: "pics/snek.png" },
+    { id: 9, title: "Ciel", src: "pics/fav.png" },
+    { id: 10, title: "Order", src: "pics/greenich.png" },
+    { id: 15, title: "Arrival", src: "pics/FinalPhantomTroupe_20210506224623.png" },
+    { id: 11, title: "Gold", src: "pics/upvotes.png" },
+    { id: 4, title: "Seed", src: "pics/orcsword port.png" },
+    { id: 5, title: "Shine", src: "pics/eltandress port.png" },
+    { id: 13, title: "Empress", src: "pics/ded.png" },
+    { id: 14, title: "Stare", src: "pics/mingot.png" },
+    { id: 12, title: "Unravel", src: "pics/new.png" },
+   
+
   ]
   
   const gallery = document.querySelector(".gallery-grid")
