@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarence Neil - Digital Artist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="pics/me.jpg" alt="Clarence Neil">
+                </div>
+                <div class="profile-info">
+                    <h1>Clarence Neil</h1>
+                    <p class="tagline">IT Student | Digital Artist | QA Enthusiast</p>
+                    <p class="bio">I'm a third-year IT student at Batangas State University, majoring in Business Analytics. <br>My expertise lies in web development, data analysis, and system testing, with a strong foundation in Excel <br>for business intelligence and reporting.<br> <br>I enjoy quality assurance, breaking systems to identify flaws, and optimizing processes for efficiency. <br>Outside of tech, I work on digital art commissions, blending creativity with precision. <br> <br>Whether coding, analyzing data, or creating art, I strive to merge functionality with aesthetics.</p>
+                </div>
+            </div>
+
+            <footer>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/clarensyoooooo" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/clarensyoooooo" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/cdn-cgi/l/email-protection#e69f899394c8858a87948388858388838f8a96878b968a898887a6818b878f8ac885898b" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </footer>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+
+    <div id="fullscreen-view" class="hidden">
+        <img id="fullscreen-image" src="/placeholder.svg" alt="">
+        <button id="close-button">&times;</button>
+        <button id="fullscreen-button">&#x26F6;</button>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
