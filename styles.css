@@ -35,7 +35,7 @@ body {
   }
   
   nav a:hover {
-    color: #0071e3;
+    color: gold;
   }
   
   main {
@@ -254,7 +254,23 @@ body {
   }
   
   .social-links a:hover {
-    color: #0071e3;
+    transform: scale(1.1);
+  }
+  
+  .social-links a[aria-label="Instagram"]:hover {
+    color: #e1306c;
+  }
+  
+  .social-links a[aria-label="Facebook"]:hover {
+    color: #1877f2;
+  }
+  
+  .social-links a[aria-label="Email"]:hover {
+    color: red;
+  }
+  
+  .social-links a[aria-label="GitHub"]:hover {
+    color: #ffa500;
   }
   
   @media (max-width: 768px) {
